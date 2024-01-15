@@ -16,27 +16,10 @@
 #'   \item{mid.price}{Mid-Price, average between quoted bid and ask prices}
 #'   \item{accint}{The accumulated interest on payments}
 #'   \item{issuedate}{Bond issue date}
-#'   \item{pqdate}{Bond payment date}
+#'   \item{pqdate}{Bond payment date. One entry for each payment.}
 #'   \item{pdint}{Bond payment amount}
 #'   \item{tupq}{Time until a given payment, given in days}
-#'   \item{year}{Year of the quotation date}
 #' }
-#' @source \url{https://wrds-web.wharton.upenn.edu/}
+#' @source \url{https://wrds-www.wharton.upenn.edu/}
 "USbonds"
 
-
-#' Daily interest rates from 4/1/1954 to 28/12/2018
-#' 
-#' A dataset containing the daily 3 Month US Treasury Bill rate
-#' 
-#' @format A data frame with 16955 rows and 2 variables:
-#' \describe{
-#' \item{date}{vector of dates}
-#' \item{rate}{daily annualised interest rate in percentages}
-#' }
-# "DTB3"
-
-#' Results of the calculation in the vignette
-#'
-#' @format A list required to produce sample figures and table
-# "vignette_data"
